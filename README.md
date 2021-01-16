@@ -1,4 +1,4 @@
-# 404-Not Found
+# Responsive 404-Not Found
 
 * positioned the body content in the middle
 * created two separate DIV elements, one to hold the image and other hold the contents (title, para and button)
