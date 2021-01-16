@@ -2,22 +2,34 @@
 
 body{
 
-    max-width: 50%;
+    max-width: 70%;
     margin: 40px auto;
 
     font-family: 'JetBrains Mono', monospace;
 }
 
+.container-two{
+    margin-right: 90px;
+}
+
+.container-three,h1,p,button {
+    margin-left: 30px;
+    margin: 40px;
+  
+   
+}
+
 .container-main{
     
     margin: 150px auto;
-    display: flex;
+    display: flex; 
     flex-direction: row;
  
 }
 
 img{
     max-width:100%;
+    
 }  
 
 button{
@@ -30,6 +42,20 @@ button{
     .container-main {
             display: block;
             width:100%;
+    }
+
+    .container-one{
+        margin:0;
+    }
+
+    .container-two{
+        margin: 0;
+    }
+
+    .container-three{
+        margin: 0;
+
+        padding: 0;
     }
 }
 
